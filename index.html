@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stopwatch & Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⏱️ Stopwatch & Timer</h1>
+
+    <div class="stopwatch">
+      <h2>Stopwatch</h2>
+      <p id="sw-time">00:00:00</p>
+      <div class="buttons">
+        <button id="sw-start">Start</button>
+        <button id="sw-pause">Pause</button>
+        <button id="sw-reset">Reset</button>
+        <button id="sw-lap">Lap</button>
+      </div>
+      <ul id="laps"></ul>
+    </div>
+
+    <div class="timer">
+      <h2>Timer</h2>
+      <input type="number" id="timer-mins" placeholder="Minutes">
+      <p id="timer-display">00:00</p>
+      <div class="buttons">
+        <button id="timer-start">Start</button>
+        <button id="timer-pause">Pause</button>
+        <button id="timer-reset">Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
